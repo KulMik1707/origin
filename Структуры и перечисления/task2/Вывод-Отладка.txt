@@ -1,0 +1,14 @@
+﻿"task2.exe" (Win32). Загружено "C:\Users\kulik\OneDrive\Рабочий стол\Нетология. Дом. задания\Структуры и перечисления\task2\x64\Debug\task2.exe". Символы загружены.
+"task2.exe" (Win32). Загружено "C:\Windows\System32\ntdll.dll". 
+"task2.exe" (Win32). Загружено "C:\Windows\System32\kernel32.dll". 
+"task2.exe" (Win32). Загружено "C:\Windows\System32\KernelBase.dll". 
+"task2.exe" (Win32). Загружено "C:\Windows\System32\msvcp140d.dll". 
+"task2.exe" (Win32). Загружено "C:\Windows\System32\vcruntime140d.dll". 
+"task2.exe" (Win32). Загружено "C:\Windows\System32\vcruntime140_1d.dll". 
+"task2.exe" (Win32). Загружено "C:\Windows\System32\ucrtbased.dll". 
+Поток 0x4544 завершился с кодом 0 (0x0).
+"task2.exe" (Win32). Загружено "C:\Windows\System32\kernel.appcore.dll". 
+"task2.exe" (Win32). Загружено "C:\Windows\System32\msvcrt.dll". 
+Поток 0x3b84 завершился с кодом 0 (0x0).
+Поток 0x29c8 завершился с кодом 0 (0x0).
+Программа "[9688] task2.exe" завершилась с кодом 0 (0x0).

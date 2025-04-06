@@ -1,0 +1,14 @@
+﻿"task3.exe" (Win32). Загружено "C:\Users\kulik\OneDrive\Рабочий стол\Нетология. Дом. задания\Структуры и перечисления\task3\x64\Debug\task3.exe". Символы загружены.
+"task3.exe" (Win32). Загружено "C:\Windows\System32\ntdll.dll". 
+"task3.exe" (Win32). Загружено "C:\Windows\System32\kernel32.dll". 
+"task3.exe" (Win32). Загружено "C:\Windows\System32\KernelBase.dll". 
+"task3.exe" (Win32). Загружено "C:\Windows\System32\msvcp140d.dll". 
+"task3.exe" (Win32). Загружено "C:\Windows\System32\vcruntime140d.dll". 
+"task3.exe" (Win32). Загружено "C:\Windows\System32\vcruntime140_1d.dll". 
+"task3.exe" (Win32). Загружено "C:\Windows\System32\ucrtbased.dll". 
+Поток 0x5654 завершился с кодом 0 (0x0).
+"task3.exe" (Win32). Загружено "C:\Windows\System32\kernel.appcore.dll". 
+"task3.exe" (Win32). Загружено "C:\Windows\System32\msvcrt.dll". 
+Поток 0x2464 завершился с кодом 0 (0x0).
+Поток 0x512c завершился с кодом 0 (0x0).
+Программа "[4008] task3.exe" завершилась с кодом 0 (0x0).

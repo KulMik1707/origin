@@ -1,0 +1,14 @@
+﻿"task1.exe" (Win32). Загружено "C:\Users\kulik\OneDrive\Рабочий стол\Нетология. Дом. задания\Структуры и перечисления\task1\task1\x64\Debug\task1.exe". Символы загружены.
+"task1.exe" (Win32). Загружено "C:\Windows\System32\ntdll.dll". 
+"task1.exe" (Win32). Загружено "C:\Windows\System32\kernel32.dll". 
+"task1.exe" (Win32). Загружено "C:\Windows\System32\KernelBase.dll". 
+"task1.exe" (Win32). Загружено "C:\Windows\System32\msvcp140d.dll". 
+"task1.exe" (Win32). Загружено "C:\Windows\System32\vcruntime140d.dll". 
+"task1.exe" (Win32). Загружено "C:\Windows\System32\vcruntime140_1d.dll". 
+"task1.exe" (Win32). Загружено "C:\Windows\System32\ucrtbased.dll". 
+Поток 0x104c завершился с кодом 0 (0x0).
+"task1.exe" (Win32). Загружено "C:\Windows\System32\kernel.appcore.dll". 
+"task1.exe" (Win32). Загружено "C:\Windows\System32\msvcrt.dll". 
+Поток 0x55fc завершился с кодом 0 (0x0).
+Поток 0x180c завершился с кодом 0 (0x0).
+Программа "[3240] task1.exe" завершилась с кодом 0 (0x0).
