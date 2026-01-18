@@ -1,0 +1,49 @@
+ #include <iostream>
+    
+
+    void count_sort(int* arr, int size) {
+        const int min = 10;
+        const int max = 24;
+        const int range = max - min + 1;
+
+        int arr2[range] = {0}; // Инициализируем массив подсчёта нулями
+
+        // Подсчитываем количество каждого элемента в исходном массиве
+        for (int i = 0; i < size; ++i) {
+            arr2[arr[i] - min]++;
+        }
+
+        // Заполняем исходный массив отсортированными элементами
+        int index = 0;
+        for (int i = 0; i < range; ++i) {
+            while (arr2[i] > 0) {
+                arr[index++] = i + min;
+                arr2[i]--;
+            }
+        }
+    }
+
+    int main() {
+        // Тестовый массив
+        int arr[] = {19, 14, 22, 22, 17, 22, 13, 21, 20, 24, 18, 10, 17, 16, 17, 20, 22, 11, 20, 16, 14, 13, 10, 22, 18, 14, 16, 24, 19, 17};
+        int size = sizeof(arr) / sizeof(arr[0]);
+
+        // Выводим исходный массив
+        std::cout << "Исходный массив: ";
+        for (int i = 0; i < size; ++i) {
+            std::cout << arr[i] << " ";
+        }
+        std::cout << std::endl;
+
+        // Сортируем массив
+        count_sort(arr, size);
+
+        // Выводим отсортированный массив
+        std::cout << "Отсортированный массив: ";
+        for (int i = 0; i < size; ++i) {
+            std::cout << arr[i] << " ";
+        }
+        std::cout << std::endl;
+
+        return 0;
+    }
