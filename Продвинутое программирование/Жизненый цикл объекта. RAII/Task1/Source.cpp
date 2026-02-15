@@ -7,7 +7,7 @@ private:
     int capacity;
     int size;
 
-    // увеличиваем вместимотсь выделенной памяти
+    // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
     void resize() {
         int newCapacity = (capacity == 0) ? 1 : capacity * 2;
         int* newData = new int[newCapacity];
@@ -33,7 +33,7 @@ public:
         delete[] data;
     }
 
-    // добавление нового элемента
+    // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
     void add_element(int value) {
         if (size >= capacity) {
             resize();
@@ -42,25 +42,25 @@ public:
         ++size;
     }
 
-    // получение элемента по индексу  
+    // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ  
     int get_element(int index) const {
-        if (index >= size) {
+        if (index <0 || index >= size) {
             throw std::out_of_range("index vihodit za predel massiva");
         }
         return data[index];
     }
 
-    //получение текущего размера массива
+    //пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
     size_t get_size() const {
         return size;
     }
 
-    // получение вместимости выделенной памяти 
+    // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ 
     size_t get_capacity() const {
         return capacity;
     }
 
-    // вывод информации о массиве
+    // пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
     void print_info() const {
         std::cout << "Razmer: " << size
             << ", Vmestimost: " << capacity
